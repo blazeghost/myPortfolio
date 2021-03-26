@@ -7,6 +7,7 @@ urlpatterns = [
 
 
 
+
     # Functionality URLS
 
 
