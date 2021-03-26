@@ -25,7 +25,7 @@ SECRET_KEY = 'nwz=nur7ch2o9d#d=!eo=!lqt+smna(a6d1zg)qt&*)lb%etd2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blazeghost.pythonanywhere.com']
 
 
 # Application definition
@@ -119,3 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/blazeghost/myPortfolio/static'
