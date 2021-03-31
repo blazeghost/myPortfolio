@@ -25,7 +25,7 @@ SECRET_KEY = 'nwz=nur7ch2o9d#d=!eo=!lqt+smna(a6d1zg)qt&*)lb%etd2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blazeghost.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
